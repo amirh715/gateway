@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Gateway
+  mvc:
+    view:
+      prefix: web/WEB_INF/jsp
+      suffix: .jsp
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
